@@ -7,7 +7,7 @@ function handledestinations(data){
     let first
 
     data.destinations.forEach((dest, i) => {
-        first = `
+        first = /*html*/`
         <div class="container">
             <img class="thumbnail" src="/img/${data.destinations[i].image}">
             <div class="bottom">
